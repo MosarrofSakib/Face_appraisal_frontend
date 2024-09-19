@@ -1,0 +1,2 @@
+/api/*  https://api.faceapp.qu-mlg.com/:splat  200!
+/*    /index.html   200
