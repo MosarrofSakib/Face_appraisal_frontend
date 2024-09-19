@@ -30,7 +30,7 @@ function App() {
     formData.append("evaluation_method", performanceMetric);
     formData.append("image", image);
     axios
-      .post("/api/faceapi", formData, {
+      .post("https://api.faceapp.qu-mlg.com/faceapi", formData, {
         timeout: 300000,
         headers: {
           "Content-Type": "multipart/form-data",
